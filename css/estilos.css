@@ -1,0 +1,247 @@
+@charset "utf-8";
+html{
+font-size:13px;
+}
+
+body,html{
+	width:100%;
+	
+}
+body { /*------------------caracteristicas del documento--------------------*/
+margin:0px;
+font-family:arial;
+font-size:1.125em;
+color:#7e7e7e;
+}
+
+@media screen and (max-width:480px) {
+
+.logo {
+	width:96px;
+	height:64px;
+	float:left;
+	margin-left:10px;
+	background-image: url(../images/logo.png);
+}
+
+.user_content{
+float:right;
+width:auto;
+margin:12px 10px 0px 0px;
+}
+
+.user{
+float:right;
+width:auto;
+margin:12px 8px 0px 0px;
+}
+
+
+}
+
+
+
+/*----------------ALINEAR Y FLOTAR----------------*/
+
+.left {
+float:left;
+}
+
+.right {
+float:right;
+}
+
+.tcenter {
+text-align:center;/*------------Alinea al centro el contenido del div----------*/
+}
+
+.tleft{
+text-align:left;/*------------Alinea a la izq el contenido del div----------*/
+}
+
+
+
+/*------------BOTONES----------------*/
+.appbutton{
+	background-color:#58bbd1;
+	color:white;
+	border:0px;
+	width:auto;
+	height:48px;
+	padding:10px;
+	font-size:1.2em;
+	margin:10px 0px;
+	font-weight:normal;
+	text-decoration:none;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.appbutton:hover{
+	background-color:#E66999;
+}
+
+.cyan {
+background-color:#58bbd1;
+}
+.green {
+	background-color:green;}
+
+.add {
+width:48px;
+height:48px;
+background-image: url(../images/iconos.png);
+background-position: -48px 0px; /*-----primer valor: de izq a der / segundo valor: arrib hacia abajo-------*/
+margin:0px;
+padding:0px;
+}
+.search {
+width:48px;
+height:48px;
+background-image: url(../images/iconos.png);
+background-position: 0px 0px; /*-----primer valor: de izq a der / segundo valor: arrib hacia abajo-------*/
+margin:0px;
+padding:0px;
+}
+
+.close {
+width:48px;
+height:48px;
+background-image: url(../images/iconos.png);
+background-position: -96px 0px; /*-----primer valor: de izq a der / segundo valor: arrib hacia abajo-------*/
+margin:0px;
+padding:0px;
+}
+
+/*-------------CONTENEDORES-------------*/
+
+
+
+
+.menu ul.right li:hover ul{/*-----Revela el sub-menú desplegable al pasar el cursor por alguno de los elementos del menú del lado derecho -----*/
+	 display:block;
+}
+.menu ul.right li  ul li {/*-----Características que poseen los elementos de sub-menú del lado derecho -----*/
+	 width:100%;
+	 line-height:45px;
+}
+
+
+.mainwrapper {
+	width: 100%;
+	margin:0px auto;
+}
+
+
+.content {
+	width: 96%;
+	height:auto;
+	overflow:auto;
+	/*border:1px solid orange;*/
+	text-align:left;
+	padding:20px 0px;
+	margin:0px auto;
+	/*background-color:#f8f8f8;*/
+}
+
+.info_content {
+	width: 100%;
+	float:left; /*-------------Permite que un div quede debajo de otro----------*/
+	height:auto;
+	overflow:auto;
+	/*border:1px solid blue;*/
+}
+
+/*--------------------HEADER-----------*/
+
+.header {
+	width: 100%;
+	height:auto;
+	overflow:auto;
+	padding-bottom:10px;
+	/*border-bottom:1px solid #b3b3b3;*/
+}
+
+.logo {
+	width:96px;
+	height:64px;
+	float:left;
+	margin-left:10px;
+	background-image: url(../images/logo.png);
+}
+
+/*----------------------MENSAJES---------------------*/
+.error{
+	background-color:red;
+	height:auto;
+	overflow:hidden;
+	color:white;
+	text-align:left;
+	padding:20px;
+	margin:10px 0;
+}
+
+.success{
+	background-color:green;
+	height:auto;
+	overflow:hidden;
+	color:white;
+	text-align:center;
+	padding:20px;
+	margin:10px 0;
+
+
+}
+
+/*--------------------PIE DE PAGINA-------------*/
+
+
+
+.footer{
+	/*border-top:1px solid #b3b3b3;*/
+	width: 100%;
+	height:50px;
+	text-align:center;
+	padding-top:20px;
+	font-size:1em;
+}
+
+
+
+
+
+/*--------------------------------------TABLAS ----------------------*/
+
+.tablesorter {
+border:1px solid #58bbd1;
+}
+
+.tablesorter tr{
+background-color:#58bbd1;
+color:#fff;
+}
+
+/*-------------campos ingreso de texto----------*/
+input[type="text"],input[type="password"],select
+{ 
+	width:98%;
+	height:24px;
+	border: 1px solid rgb(178, 206, 210);
+	padding:5px 0px 5px 4px; /*-------------margen interno----------*/
+	margin:5px 0px;
+	float:left;
+}
+
+/*--------------USUARIO-----------------*/
+.user_content{
+float:right;
+width:auto;
+margin:12px 10px 0px 0px;
+}
+
+.user{
+float:left;
+width:auto;
+margin:12px 8px 0px 0px;
+}
